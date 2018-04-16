@@ -1,0 +1,10 @@
+{{#each receipts}}
+<div class="row">
+    <div class="col wide">{{date}}</div>
+    <div class="col wide">{{productCount}}</div>
+    <div class="col">{{total}}</div>
+    <div class="col">
+        <a href="#/receipt/detail/{{_id}}">Details</a>
+    </div>
+</div>
+{{/each}}
